@@ -24,7 +24,7 @@ You can now access s3.cloudmatica.com as though it is a local folder
 ------------
 
 The overall steps are as follows:
-
+~~~~
 Create an IAM user: s3fs_user
 Create an s3 bucket: s3.cloudmatica.com
 Create a bucket policy that gives s3fs_user full S3 access to the bucket and its contents
@@ -68,3 +68,4 @@ Bucket Policy
     ]
 }
 
+~~~~
